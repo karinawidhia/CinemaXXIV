@@ -45,20 +45,20 @@ dengan cepat dan praktis walaupun tanpa perlu terhubung dengan internet terlebih
 <br/> <br/>
 
 #### Screenshot Aplikasi
-Contoh Application Intro
-![ss1](https://github.com/karinawidhia/CinemaXXIV/blob/master/ss6.png =50x150) <br/> <br/>
+####Contoh Application Intro
+![ss1](https://github.com/karinawidhia/CinemaXXIV/blob/master/ss6.png =50x150)
 
-Tab Popular
+####Tab Popular
 ![ss2](https://github.com/karinawidhia/CinemaXXIV/blob/master/ss1.png) <br/> <br/>
 
-Tab Top Rated
+####Tab Top Rated
 ![ss3](https://github.com/karinawidhia/CinemaXXIV/blob/master/ss2.png) <br/> <br/>
 
-Tab Now Playing
+####Tab Now Playing
 ![ss4](https://github.com/karinawidhia/CinemaXXIV/blob/master/ss3.png) <br/> <br/>
 
-Tab Coming Soon
+####Tab Coming Soon
 ![ss5](https://github.com/karinawidhia/CinemaXXIV/blob/master/ss4.png) <br/> <br/>
 
-Contoh Halaman Detail
+####Contoh Halaman Detail
 ![ss6](https://github.com/karinawidhia/CinemaXXIV/blob/master/ss5.png)
