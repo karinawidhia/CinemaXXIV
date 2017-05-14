@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tittle">
+        <item>Guardians of the Galaxy Vol. 2</item>
+        <item>Beauty and The Beast</item>
+        <item>The Fate of the Furious</item>
+        <item>Alien: Covenant</item>
+        <item>Get Out</item>
+        <item>The Boss Baby</item>
+    </string-array>
+
+    <array name="places">
+        <item>@drawable/ic_cloud_black_24dp</item>
+        <item>@drawable/ic_movie_creation_black_24dp</item>
+        <item>@drawable/ic_movie_creation_black_24dp</item>
+        <item>@drawable/ic_movie_creation_black_24dp</item>
+        <item>@drawable/ic_cloud_black_24dp</item>
+        <item>@drawable/ic_cloud_black_24dp</item>
+    </array>
+    <array name="places_picture">
+        <item>@drawable/gbr1</item>
+        <item>@drawable/gbr2</item>
+        <item>@drawable/gbr3</item>
+        <item>@drawable/gbr4</item>
+        <item>@drawable/gbr5</item>
+        <item>@drawable/gbr6</item>
+    </array>
+</resources>

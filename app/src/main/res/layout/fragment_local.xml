@@ -2,12 +2,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="id.sch.smktelkom_mlg.privateassignment.xirpl115.CinemaXXIV.Page2Fragment">
+    android:orientation="vertical"
+    tools:context="id.sch.smktelkom_mlg.privateassignment.xirpl115.CinemaXXIV.LocalFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <android.support.v7.widget.RecyclerView
-        android:id="@+id/recyclerView2"
+        android:id="@+id/recyclerViewLocal"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+        android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
 
 </FrameLayout>

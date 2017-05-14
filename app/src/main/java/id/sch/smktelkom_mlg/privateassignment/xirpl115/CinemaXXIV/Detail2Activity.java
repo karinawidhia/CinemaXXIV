@@ -1,4 +1,4 @@
-package id.sch.smktelkom_mlg.privateassignment.xirpl115.projectpribadi;
+package id.sch.smktelkom_mlg.privateassignment.xirpl115.CinemaXXIV;
 
 import android.app.ProgressDialog;
 import android.os.Bundle;
@@ -19,41 +19,32 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-public class DetailActivity extends AppCompatActivity {
+public class Detail2Activity extends AppCompatActivity {
 
-    private static final String URL_DATA = "https://api.themoviedb.org/3/movie/top_rated?api_key=995d0fd758a9c51cc891161b42de18db";
-    public TextView textViewHeading;
-    public TextView textViewDesc;
-    public TextView textViewReview;
-    public ImageView imageViewDetail;
-    public String url;
+    private static final String URL_DATA = "https://api.themoviedb.org/3/movie/now_playing?api_key=995d0fd758a9c51cc891161b42de18db";
+    public TextView textViewHeading2;
+    public TextView textViewDesc2;
+    public TextView textViewReview2;
+    public ImageView imageViewDetail2;
+    public String url2;
 
-    private Integer mPostkey = null;
+    private Integer mPostkey2 = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_detail);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        //setSupportActionBar(toolbar);
+        setContentView(R.layout.activity_detail2);
 
-        mPostkey = getIntent().getExtras().getInt("blog_id");
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar2);
+
+        mPostkey2 = getIntent().getExtras().getInt("blog_id");
+
         loadRecyclerViewData();
 
-//        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-//        fab.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Uri uri = Uri.parse(url);
-//                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-//                startActivity(intent);
-//            }
-//        });
-
-        textViewHeading = (TextView) findViewById(R.id.textViewHeading);
-        textViewDesc = (TextView) findViewById(R.id.textViewDesc);
-        textViewReview = (TextView) findViewById(R.id.textViewReview);
-        imageViewDetail = (ImageView) findViewById(R.id.imageViewDetail);
+        textViewHeading2 = (TextView) findViewById(R.id.textViewHeading2);
+        textViewDesc2 = (TextView) findViewById(R.id.textViewDesc2);
+        textViewReview2 = (TextView) findViewById(R.id.textViewReview2);
+        imageViewDetail2 = (ImageView) findViewById(R.id.imageViewDetail2);
 
 //        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 //        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
@@ -76,17 +67,17 @@ public class DetailActivity extends AppCompatActivity {
                 try {
                     JSONObject jsonObject = new JSONObject(s);
                     JSONArray array = jsonObject.getJSONArray("results");
-                    JSONObject o = array.getJSONObject(mPostkey);
+                    JSONObject o = array.getJSONObject(mPostkey2);
 
                     setTitle("Movie Details");
-                    textViewHeading.setText(o.getString("title"));
-                    textViewDesc.setText("Popularity : " + o.getString("popularity"));
-                    textViewReview.setText("Overview : " + o.getString("overview"));
-                    url = o.getJSONObject("link").getString("url");
+                    textViewHeading2.setText(o.getString("title"));
+                    textViewDesc2.setText("Popularity : " + o.getString("popularity"));
+                    textViewReview2.setText("Overview : " + o.getString("overview"));
+                    url2 = o.getJSONObject("link").getString("url");
                     Glide
-                            .with(DetailActivity.this)
+                            .with(Detail2Activity.this)
                             .load("http://image.tmdb.org/t/p/w500" + o.getString("poster_path"))
-                            .into(imageViewDetail);
+                            .into(imageViewDetail2);
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }

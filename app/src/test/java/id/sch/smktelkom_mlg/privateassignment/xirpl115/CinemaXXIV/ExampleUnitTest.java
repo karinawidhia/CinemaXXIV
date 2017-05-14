@@ -1,4 +1,4 @@
-package id.sch.smktelkom_mlg.privateassignment.xirpl115.projectpribadi;
+package id.sch.smktelkom_mlg.privateassignment.xirpl115.CinemaXXIV;
 
 import org.junit.Test;
 

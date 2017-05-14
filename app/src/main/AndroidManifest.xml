@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="id.sch.smktelkom_mlg.privateassignment.xirpl115.projectpribadi">
+    package="id.sch.smktelkom_mlg.privateassignment.xirpl115.CinemaXXIV">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -12,19 +12,19 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name="id.sch.smktelkom_mlg.privateassignment.xirpl115.CinemaXXIV.MainActivity"
             android:label="Cinema XXIV"
             android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".DetailActivity" />
-        <activity android:name=".Detail2Activity" />
-        <activity android:name=".WelcomeActivity">
+        <activity android:name="id.sch.smktelkom_mlg.privateassignment.xirpl115.CinemaXXIV.DetailActivity" />
+        <activity android:name="id.sch.smktelkom_mlg.privateassignment.xirpl115.CinemaXXIV.Detail2Activity" />
+        <activity android:name="id.sch.smktelkom_mlg.privateassignment.xirpl115.CinemaXXIV.WelcomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Detail3Activity"></activity>
+        <activity android:name="id.sch.smktelkom_mlg.privateassignment.xirpl115.CinemaXXIV.Detail3Activity"></activity>
     </application>
 
 </manifest>

@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="id.sch.smktelkom_mlg.privateassignment.xirpl115.projectpribadi.Detail3Activity">
+    tools:context="id.sch.smktelkom_mlg.privateassignment.xirpl115.CinemaXXIV.Detail3Activity">
 
     <android.support.design.widget.AppBarLayout
         android:id="@+id/appBar"

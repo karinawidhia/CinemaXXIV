@@ -1,4 +1,4 @@
-package id.sch.smktelkom_mlg.privateassignment.xirpl115.projectpribadi;
+package id.sch.smktelkom_mlg.privateassignment.xirpl115.CinemaXXIV;
 
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
@@ -130,10 +130,12 @@ public class MainActivity extends AppCompatActivity {
             // getItem is called to instantiate the fragment for the given page.
             // Return a PlaceholderFragment (defined as a static inner class below).
             if (position == 0)
-                return new Page1Fragment();
+                return new LocalFragment();
             else if (position == 1)
-                return new Page2Fragment();
+                return new Page1Fragment();
             else if (position == 2)
+                return new Page2Fragment();
+            else if (position == 3)
                 return new Page3Fragment();
             else
                 return PlaceholderFragment.newInstance(position + 1);
@@ -141,18 +143,20 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public int getCount() {
-            // Show 3 total pages.
-            return 3;
+            // Show 4 total pages.
+            return 4;
         }
 
         @Override
         public CharSequence getPageTitle(int position) {
             switch (position) {
                 case 0:
-                    return "TOP RATED";
+                    return "POPULAR";
                 case 1:
-                    return "NOW PLAYING";
+                    return "TOP RATED";
                 case 2:
+                    return "NOW PLAYING";
+                case 3:
                     return "COMING SOON";
             }
             return null;

@@ -1,4 +1,4 @@
-package id.sch.smktelkom_mlg.privateassignment.xirpl115.projectpribadi;
+package id.sch.smktelkom_mlg.privateassignment.xirpl115.CinemaXXIV;
 
 
 import android.app.ProgressDialog;
@@ -29,14 +29,14 @@ import java.util.List;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class Page2Fragment extends Fragment {
+public class Page1Fragment extends Fragment {
 
-    private static final String URL_DATA = "https://api.themoviedb.org/3/movie/now_playing?api_key=995d0fd758a9c51cc891161b42de18db";
-    public List<Page2ListItem> listItems2;
-    private RecyclerView recyclerView2;
-    private RecyclerView.Adapter adapter2;
+    private static final String URL_DATA = "https://api.themoviedb.org/3/movie/top_rated?api_key=995d0fd758a9c51cc891161b42de18db";
+    public List<Page1ListItem> listItems;
+    private RecyclerView recyclerView;
+    private RecyclerView.Adapter adapter;
 
-    public Page2Fragment() {
+    public Page1Fragment() {
         // Required empty public constructor
     }
 
@@ -45,19 +45,26 @@ public class Page2Fragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
+        View view = inflater.inflate(R.layout.fragment_page1, container, false);
 
-        View view = inflater.inflate(R.layout.fragment_page2, container, false);
+        recyclerView = (RecyclerView) view.findViewById(R.id.recyclerView);
+        recyclerView.setHasFixedSize(true);
+        recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
 
-        recyclerView2 = (RecyclerView) view.findViewById(R.id.recyclerView2);
-        recyclerView2.setHasFixedSize(true);
-        recyclerView2.setLayoutManager(new LinearLayoutManager(getActivity()));
-
-        listItems2 = new ArrayList<>();
-
-        adapter2 = new Page2Adapter(listItems2, getActivity());
-        recyclerView2.setAdapter(adapter2);
+        listItems = new ArrayList<>();
 
         loadRecycleViewData();
+
+        /*for (int i = 0; i <= 5; i++) {
+            Page1ListItem listItem = new Page1ListItem(
+                    "",
+                    "Title" + (i + 1),
+                    "Lorem ipsum");
+            listItems.add(listItem);
+        }
+        */
+        adapter = new Page1Adapter(listItems, getActivity());
+        recyclerView.setAdapter(adapter);
 
         return view;
     }
@@ -79,15 +86,15 @@ public class Page2Fragment extends Fragment {
 
                             for (int i = 0; i < array.length(); i++) {
                                 JSONObject o = array.getJSONObject(i);
-                                Page2ListItem item2 = new Page2ListItem(
+                                Page1ListItem item = new Page1ListItem(
                                         o.getString("poster_path"),
                                         o.getString("title"),
                                         o.getString("release_date")
                                 );
-                                listItems2.add(item2);
+                                listItems.add(item);
                             }
-                            adapter2 = new Page2Adapter(listItems2, getActivity().getApplication());//apabila di acyvity getactivity hanya ditulis this saja.
-                            recyclerView2.setAdapter(adapter2);
+                            adapter = new Page1Adapter(listItems, getActivity().getApplication());//apabila di acyvity getactivity hanya ditulis this saja.
+                            recyclerView.setAdapter(adapter);
                         } catch (JSONException e) {
                             e.printStackTrace();
                         }
