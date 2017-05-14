@@ -1,6 +1,7 @@
 package id.sch.smktelkom_mlg.privateassignment.xirpl115.projectpribadi;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -8,6 +9,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 
@@ -34,7 +36,7 @@ public class Page3Adapter extends RecyclerView.Adapter<Page3Adapter.ViewHolder> 
     }
 
     @Override
-    public void onBindViewHolder(ViewHolder holder, int position) {
+    public void onBindViewHolder(ViewHolder holder, final int position) {
         final Page3ListItem page3ListItem = page3ListItems.get(position);
 
         holder.textViewTitle3.setText(page3ListItem.getTitle3());
@@ -44,6 +46,17 @@ public class Page3Adapter extends RecyclerView.Adapter<Page3Adapter.ViewHolder> 
                 .with(context3)
                 .load("http://image.tmdb.org/t/p/w500" + page3ListItem.getImageUrl3())
                 .into(holder.imageViewOtOf3);
+
+        holder.linearLayout3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(context3, page3ListItem.getTitle3() + " selected", Toast.LENGTH_LONG).show();
+                Intent intent3 = new Intent(context3, Detail3Activity.class);
+                intent3.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                intent3.putExtra("blog_id", position);
+                context3.startActivity(intent3);
+            }
+        });
 
     }
 
