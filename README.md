@@ -45,20 +45,26 @@ dengan cepat dan praktis walaupun tanpa perlu terhubung dengan internet terlebih
 <br/> <br/>
 
 #### Screenshot Aplikasi
-####Contoh Application Intro
-![ss1](https://github.com/karinawidhia/CinemaXXIV/blob/master/ss6.png =50x150)
+Contoh Application Intro
+<img src="https://github.com/karinawidhia/CinemaXXIV/blob/master/ss6.png" height="325px" width="185px">
+<br/>
 
-####Tab Popular
-![ss2](https://github.com/karinawidhia/CinemaXXIV/blob/master/ss1.png) <br/> <br/>
+Tab Popular
+<img src="https://github.com/karinawidhia/CinemaXXIV/blob/master/ss1.png" height="325px" width="185px">
+<br/>
 
-####Tab Top Rated
-![ss3](https://github.com/karinawidhia/CinemaXXIV/blob/master/ss2.png) <br/> <br/>
+Tab Top Rated
+<img src="https://github.com/karinawidhia/CinemaXXIV/blob/master/ss2.png" height="325px" width="185px">
+<br/>
 
-####Tab Now Playing
-![ss4](https://github.com/karinawidhia/CinemaXXIV/blob/master/ss3.png) <br/> <br/>
+Tab Now Playing
+<img src="https://github.com/karinawidhia/CinemaXXIV/blob/master/ss3.png" height="325px" width="185">
+<br/>
 
-####Tab Coming Soon
-![ss5](https://github.com/karinawidhia/CinemaXXIV/blob/master/ss4.png) <br/> <br/>
+Tab Coming Soon
+<img src="https://github.com/karinawidhia/CinemaXXIV/blob/master/ss4.png" height="325px" width="185px">
+<br/>
 
-####Contoh Halaman Detail
-![ss6](https://github.com/karinawidhia/CinemaXXIV/blob/master/ss5.png)
+Contoh Halaman Detail
+<img src="https://github.com/karinawidhia/CinemaXXIV/blob/master/ss5.png" height="325px" width="185px">
+<br/>
