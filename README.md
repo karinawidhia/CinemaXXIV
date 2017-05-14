@@ -2,7 +2,7 @@
 
 #### Link file apk-release 
 https://drive.google.com/open?id=0B4FQu99xsYM8VXY3MG80dDI4NHc
-<br/>
+<br/> <br/>
 
 #### Identitas Siswa
 Nama      : Karina Widhia Nugrahini <br/>
@@ -14,15 +14,15 @@ Sekolah   : SMK Telkom Malang <br/>
 
 #### Alamat API yang digunakan
 The Movie Database(TMDb) API: https://www.themoviedb.org/documentation/api
-<br/>
+<br/> <br/>
 
 #### Navigasi yang digunakan
 Tabbed Activity dengan Navigation Style: Action Bar Tabs (with View Pager)
-<br/>
+<br/> <br/>
 
 #### Library dari Local Database yang digunakan
 SQLite dasar
-<br/>
+<br/> <br/>
 
 #### Deskripsi Aplikasi
 Aplikasi Cinema XXIV ini berfungsi untuk menampilkan update film-film internasional. <br/>
@@ -33,7 +33,7 @@ Di halaman ketiga, terdapat tab now playing untuk mengetahui film apa saja yang 
 Dan terakhir di halaman keempat, terdapat tab coming soon untuk mengetahui film apa saja yang akan tayang di waktu yang akan datang. <br/>
 Dengan adanya fitur diatas, diharapkan aplikasi ini dapat memberikan kemudahan kepada para pengguna untuk dapat mengetahui informasi film-film
 internasional sehingga akan menguntungkan bagi siapapun yang mendownloadnya.
-<br/>
+<br/> <br/>
 
 #### Kelebihan Aplikasi
 Kelebihan dari aplikasi ini yaitu menyediakan fitur lengkap yang menyediakan informasi fil-film internasional. Mulai dari yang populer,
@@ -42,11 +42,11 @@ Di awal penginstalan, terdapat intro aplikasi yang memberikan penjelasan singkat
 perlu bingung untuk menerka-nerka aplikasi apa ini sebenarnya. <br/>
 Khusus pada tab populer sudah tersimpan pada local database, sehingga pengguna dapat mengetahui film apa yang sedang populer sekarang 
 dengan cepat dan praktis walaupun tanpa perlu terhubung dengan internet terlebih dahulu.
-<br/>
+<br/> <br/>
 
 #### Screenshot Aplikasi
 Contoh Application Intro
-![ss1](https://github.com/karinawidhia/CinemaXXIV/blob/master/ss6.png) <br/> <br/>
+![ss1](https://github.com/karinawidhia/CinemaXXIV/blob/master/ss6.png =50x150) <br/> <br/>
 
 Tab Popular
 ![ss2](https://github.com/karinawidhia/CinemaXXIV/blob/master/ss1.png) <br/> <br/>
