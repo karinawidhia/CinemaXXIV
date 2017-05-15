@@ -1,10 +1,10 @@
 # Cinema XXIV
 
-#### Link file apk-release 
+### Link file apk-release 
 https://drive.google.com/open?id=0B4FQu99xsYM8VXY3MG80dDI4NHc
 <br/> <br/>
 
-#### Identitas Siswa
+### Identitas Siswa
 Nama      : Karina Widhia Nugrahini <br/>
 Kelas/No  : XI RPL 1/15 <br/>
 NIS       : 4733/1452.070 <br/>
@@ -12,19 +12,19 @@ Angkatan  : 24 <br/>
 Sekolah   : SMK Telkom Malang <br/>
 <br/>
 
-#### Alamat API yang digunakan
+### Alamat API yang digunakan
 The Movie Database(TMDb) API: https://www.themoviedb.org/documentation/api
 <br/> <br/>
 
-#### Navigasi yang digunakan
+### Navigasi yang digunakan
 Tabbed Activity dengan Navigation Style: Action Bar Tabs (with View Pager)
 <br/> <br/>
 
-#### Library dari Local Database yang digunakan
+### Library dari Local Database yang digunakan
 SQLite dasar
 <br/> <br/>
 
-#### Deskripsi Aplikasi
+### Deskripsi Aplikasi
 Aplikasi Cinema XXIV ini berfungsi untuk menampilkan update film-film internasional. <br/>
 Pada saat awal menginstall terdapat application intro yang dapat mengenalkan aplikasi ini secara singkat kepada para pengguna. <br/>
 Dimulai dari halaman pertama, terdapat tab popular untuk mengetahui film apa saja yang sedang populer di kalangan masyarakat.
@@ -35,7 +35,7 @@ Dengan adanya fitur diatas, diharapkan aplikasi ini dapat memberikan kemudahan k
 internasional sehingga akan menguntungkan bagi siapapun yang mendownloadnya.
 <br/> <br/>
 
-#### Kelebihan Aplikasi
+### Kelebihan Aplikasi
 Kelebihan dari aplikasi ini yaitu menyediakan fitur lengkap yang menyediakan informasi fil-film internasional. Mulai dari yang populer,
 memiliki rating tertinggi, sedang tayang, dan yang akan datang atau segera tayang. <br/>
 Di awal penginstalan, terdapat intro aplikasi yang memberikan penjelasan singkat mengenai aplikasi ini, sehingga para pengguna tidak 
@@ -44,27 +44,27 @@ Khusus pada tab populer sudah tersimpan pada local database, sehingga pengguna d
 dengan cepat dan praktis walaupun tanpa perlu terhubung dengan internet terlebih dahulu.
 <br/> <br/>
 
-#### Screenshot Aplikasi
-Contoh Application Intro <br/>
+### Screenshot Aplikasi
+Contoh Application Intro <br/> <br/>
 <img src="https://github.com/karinawidhia/CinemaXXIV/blob/master/ss6.png" height="400px" width="225px">
 <br/>
 
-Tab Popular <br/>
+Tab Popular <br/> <br/>
 <img src="https://github.com/karinawidhia/CinemaXXIV/blob/master/ss1.png" height="400px" width="225px">
 <br/>
 
-Tab Top Rated <br/>
+Tab Top Rated <br/> <br/>
 <img src="https://github.com/karinawidhia/CinemaXXIV/blob/master/ss2.png" height="400px" width="225px">
 <br/>
 
-Tab Now Playing <br/>
+Tab Now Playing <br/> <br/>
 <img src="https://github.com/karinawidhia/CinemaXXIV/blob/master/ss3.png" height="400px" width="225px">
 <br/>
 
-Tab Coming Soon <br/>
+Tab Coming Soon <br/> <br/>
 <img src="https://github.com/karinawidhia/CinemaXXIV/blob/master/ss4.png" height="400px" width="225px">
 <br/>
 
-Contoh Halaman Detail <br/>
+Contoh Halaman Detail <br/> <br/>
 <img src="https://github.com/karinawidhia/CinemaXXIV/blob/master/ss5.png" height="400px" width="225px">
 <br/>
